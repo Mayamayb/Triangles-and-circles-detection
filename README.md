@@ -3,7 +3,7 @@ find triangles and circles in images
 
 ## Structure
 ### Poject consist of files:
-1. `main.py` : consists main loop and model class. It is most suitable to modify 'Main' function for running relevant code. the configarations are set to calculate 
+1. `main.py` : consists of main loop and model class. It is most suitable to modify 'Main' function for running relevant code. the configarations are set to calculate 
   precision recall curve and plot top5 (best and worst prediction images)
 2. `detect.py`: consists of functions for detecting the shapes. `main.py` imports from it
 3. `utils.py` : consists of functions used in project.  `main.py`,`detect.py` imports from it 
