@@ -24,9 +24,9 @@ find triangles and circles in images
 
 ### Results
   for my model prediction and evaluation:
-    `model.make_predictions(new_pred_path)
-    model=Model(img_path, gt_path, new_pred_path, iou_thresh=0.3)
-    model.model_eval(prnt=True)`
+    `model.make_predictions(new_pred_path)`
+    `model=Model(img_path, gt_path, new_pred_path, iou_thresh=0.3)`
+    `model.model_eval(prnt=True)`
     
  PRINTED:
  
@@ -47,8 +47,8 @@ find triangles and circles in images
   
   
   evaluation for given predictions : 
- `  model=Model(img_path, gt_path, pred_path, iou_thresh=0.3)
-    model.model_eval(prnt=True)`
+ `  model=Model(img_path, gt_path, pred_path, iou_thresh=0.3)`
+ ` model.model_eval(prnt=True)`
  PRINTED
     
  
