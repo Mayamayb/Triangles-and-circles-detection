@@ -22,7 +22,8 @@ find triangles and circles in images
 4. Run `utils.precision_recall_curve(precision_rate[shape],recall_rate[shape], shape, pred )` to plot precision-recall curve, with precision_rate, recall_rate  calculates as in the 'Main' function.
 5. Run `model.topk()` to plot best and worst model prediction images based on F1_circlesxF1_triangles  (after running model.eval) 
 
-### Results 
+### Results
+  for my model prediction and evaluation:
     `model.make_predictions(new_pred_path)
     model=Model(img_path, gt_path, new_pred_path, iou_thresh=0.3)
     model.model_eval(prnt=True)`
@@ -43,6 +44,31 @@ find triangles and circles in images
     Total missed = 1509
     Precision : 0.232
     Recall : 0.370 
+  
+  
+  evaluation for given predictions : 
+ `  model=Model(img_path, gt_path, pred_path, iou_thresh=0.3)
+    model.model_eval(prnt=True)`
+ PRINTED
+    
+ 
+    Evaluation performance for circles:
+    Total detections = 434/1441
+    Total False Positives = 1002
+    Total missed = 1007
+    Precision : 0.302
+    Recall : 0.301 
+
+
+    Evaluation performance for triangles:
+    Total detections = 998/2395
+    Total False Positives = 1407
+    Total missed = 1397
+    Precision : 0.415
+    Recall : 0.417 
+
+
+
 #### example image plotted with my predictions:
 
 ![result image](https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/predictions_Best%20F1%3D0.75_075d44c6-49c1-48ab-a77c-0db3fdb80973.jpg?raw=true)
