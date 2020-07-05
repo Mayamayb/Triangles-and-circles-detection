@@ -48,11 +48,24 @@ find triangles and circles in images
 ![result image](https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/predictions_Best%20F1%3D0.75_075d44c6-49c1-48ab-a77c-0db3fdb80973.jpg?raw=true)
 
 #### example image plotted with given predictions:
-![result image](https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/predictions_Best%20F1%3D1.00_1214f4de-8399-48ea-a2f6-6e31843bc3da.jpg?raw=true)
+![result image2](https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/predictions_Best%20F1%3D1.00_1214f4de-8399-48ea-a2f6-6e31843bc3da.jpg?raw=true)
 
 ### Graphs:
- precision-recall curve:
- 
+### precision-recall curve:
+#### given circle predictions evaluation:
+
+![result image3]( https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/precision_recall_curve_circle_prediction.png?raw=true)
+
+#### given triangles predictions evaluation:
+![result image4]( https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/precision_recall_curve_triangle_prediction.png?raw=true)
+
+#### my model's circle predictions evaluation:
+
+![result image5]( https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/precision_recall_curve_circle_prediction_new.png?raw=true)
+
+#### my model's triangles predictions evaluation:
+![result image6]( https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/precision_recall_curve_triangle_prediction_new.png?raw=true)
+
 
 
 
