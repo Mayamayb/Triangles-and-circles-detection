@@ -44,7 +44,7 @@ find triangles and circles in images
     Precision : 0.232
     Recall : 0.370 
 example image plotted:
-! [result image](https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/predictions_Best%20F1%3D0.75_075d44c6-49c1-48ab-a77c-0db3fdb80973.jpg)
+![result image](https://github.com/Mayamayb/Triangles-and-circles-detection/blob/master/predictions_Best%20F1%3D0.75_075d44c6-49c1-48ab-a77c-0db3fdb80973.jpg?raw=true)
 
 
 
